@@ -22,4 +22,3 @@ class ControllerInterface (ABC):
     @staticmethod
     @abstractmethod
     def destroy(id:int)->tuple[Response, int]:pass
-    
